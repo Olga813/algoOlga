@@ -1,0 +1,24 @@
+-------- ArrayList Addition 90000 elements to the beginning --------
+ArrayList.add(index, element): 3215 ms
+-------- DynamicArray Addition 90000 elements to the beginning --------
+DynamicArray.add(index, element): 3236 ms
+-------- ArrayList Addition 120000 elements to the middle --------
+ArrayList.add(ind,index, element): 2156 ms
+-------- DynamicArray Addition 120000 elements to the middle --------
+DynamicArray.add(index, element): 2078 ms
+-------- ArrayList Addition 25000000 elements to the end --------
+ArrayList.add(index, element): 2375 ms
+-------- DynamicArray Addition 25000000 elements to the end --------
+DynamicArray.add(index, element): 2624 ms
+-------- ArrayList Removing 150000 elements in the beginning --------
+ArrayList.remove(int index): 3710 ms
+-------- DynamicArray Removing 150000 elements in the beginning --------
+DynamicArray.remove(int index): 3945 ms
+-------- ArrayList Removing 160000 elements in the middle --------
+ArrayList.remove(int index): 3137 ms
+-------- DynamicArray Removing 160000 elements in the middle --------
+DynamicArray.remove(int index): 3042 ms
+-------- ArrayList Removing 150000000 elements in the end --------
+ArrayList.remove(int index): 1597 ms
+-------- DynamicArray Removing 150000000 elements in the end --------
+DynamicArray.remove(int index): 1070 ms

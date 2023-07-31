@@ -1,0 +1,17 @@
+ENG
+(int)(char)(byte)-1
+
+1111 1111 (byte 8bit)
+1111 1111 1111 1111 1111 11111 1111 1111 (int 32. Since when the byte => char is expanded to int+narrowing to char)
+1111 1111 1111 11111 (char 16 Bit. Expansion due to the repetition of the senior category)
+0000 0000 1111 1111 11111 1111 (int 32 bit). Expansion by adding 0. Since char without iconic value
+Total 65 535 
+
+
+RU
+(int)(chaR)(byte)-1
+1111 1111 (byte 8bit) 
+1111 1111 1111 1111 1111 11111 1111 1111 (int 32. Так как при при образование bite=>char идёт расширение до int+сужение до char) 
+1111 1111 1111 11111(char 16 bit. расширение за счёт повторение старшего разряда) 
+0000 0000 1111 1111 11111 1111 (int 32 bit). Расширение за счёт добавления 0. Так как char без знаковая величина
+Итого 65 535

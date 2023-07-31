@@ -1,0 +1,57 @@
+-------- Linked List 90000 elements to the beginning --------
+LinkedList.add(index,element): 30 ms
+-------- ArrayList Addition (default size) 90000 elements to the beginning --------
+ArrayList(default size).add(index, element): 3122 ms
+-------- ArrayList Addition (size of test date) 90000 elements to the beginning --------
+ArrayList (size of test date).add(index, element) : 3107 ms
+
+-------- Linked List 120000 elements to the middle --------
+LinkedList.add(index, element): 13018 ms
+-------- ArrayList Addition (default size) 120000 elements to the middle --------
+ArrayList(default size).add(index, element): 2245 ms
+-------- ArrayList Addition (size of test date) 120000 elements to the middle --------
+ArrayList(size of test date).add(index, element): 2205 ms
+
+-------- Linked List Addition2500000 elements to the end --------
+LinkedList.add(index, element): 398 ms
+-------- ArrayList Addition (default size) 25000000 elements to the end --------
+ArrayList(default size).add(index, element): 2310 ms
+-------- ArrayList Addition (size of test date) 25000000 elements to the end --------
+ArrayList(size of test date).add(index, element): 1463 ms
+
+-------- Linked List Removing150000 elements in the beginning --------
+LinkedList.remove(int index): 20 ms
+-------- ArrayList Removing (default size) 150000 elements in the beginning --------
+ArrayList(default size).remove(int index): 3121 ms
+-------- ArrayList Removing (size of test date) 150000 elements in the beginning --------
+ArrayList(size of test date).remove(int index): 2748 ms
+
+-------- Linked List Removing 160000 elements in the middle --------
+LinkedList.remove(int index): 7437 ms
+-------- ArrayList Removing (default size)160000 elements in the middle --------
+ArrayList(default size).remove(int index): 3272 ms
+-------- ArrayList Removing (size of test date) 160000 elements in the middle --------
+ArrayList(size of test date).remove(int index): 3349 ms
+
+-------- Linked List Removing 15000000 elements in the end --------
+LinkedList.remove(int index): 321 ms
+-------- ArrayList Removing (default size) 15000000 elements in the end --------
+ArrayList(default size).remove(int index): 431 ms
+-------- ArrayList Removing (size of test date) 15000000 elements in the end --------
+ArrayList(size of test date).remove(int index): 130 ms
+
+                          |  ArrayList  |  LinkedList 
+ add (в начало)           |     O(n)    |   O(1)
+ add (в середину)         |     O(n)    |   O(n)
+ add (в конец списка)     |     O(n)    |   O(1)  
+
+ArrayList (default size) основан на обычном массиве. Данная коллекция динамически увеличивает размер массива, если в нем не хватает места.
+ArrayList (size of test date) чуть быстрее,тк размер массив уже первоначально задан.
+LinkedList связанный список, состоящий из узлов. В каждом узле, хранится ссылки на следующий/предыдующий узел и значение. Добавить элемент в начло и конец происходить очень быстро, нужно лишь поменять ссылкы для первого и посленего элемента списка. Добавление в середину листа  по времени очень затратно, тк требуся перебрать n элементов, чтоб найти нужный узел.
+
+                            | ArrayList |  LinkedList | ArrayList (size of test date)
+delete (первый элемент)     |   O(n)    |   O(1)      | O(n)
+delete (из середины)        |   O(n)    |   O(n)      | O(n)
+delete (последний элемент)  |   O(1)    |   O(1)      | O(1) 
+
+В LinkedList удаление происходит аналогично вставке. В ArrayList (default size), примерно, так же как и при добавлени, чуть быстрее только удаление из конца, тк не требуся увеличивать массив.В ArrayList (size of test date) мы получем отличный результат при удаление последнего элемента тк размер массива первоначально уже задан и соотвественно индекс последнего элемента известен. 

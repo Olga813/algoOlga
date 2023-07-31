@@ -1,0 +1,51 @@
+ENG
+1.
+The transdormation of types is smooth: byte=>shot=>int=>long
+float=>double (loss of accuracy happens in not entire numbers due to the rounding of the number in Float)
+int=>double
+-The expression goes by adding on the left "0". If n=>0.
+-Drying on these chains goes by adding "1" on the left. If n<0.
+
+2.
+int => float
+long => float
+long => double
+There may be a loss of data in not entire numbers since fractional types are less than meaningful discharges.
+
+3.
+byte => char
+short => Char
+Will lead to data loss. Since Char without a significant number. (First there is an expansion of Bity (short) => int and then a narrowing to inte)
+
+four.
+char => int
+chat => long
+char => doublec
+char => float
+Expansion is due to 0 on the left. It goes smoothly
+
+RU
+1.
+Преобразование типов идёт гладко:byte=>shot=>int=>long
+float=>double (потеря точности бывает у не целых чисел за счёт округления числа в float) 
+int=>double
+-Расширение идёт путём добавления слева "0" .Если  n =>0. 
+-Расширение по этим цепочкам идет путём добавления" 1" слева. Если n <0.
+
+2.
+int=>float 
+long=>float
+long=>double
+Может произойти потеря данных у не целых чисел так как  у дробных типов меньше значащих разрядов.
+
+3.
+byte=>char
+short=>char
+Приведёт к потери данных. Так как char без знаковое число. (Сначала   идёт расширение bity(short)=>int а потом сужение к int) 
+
+4.
+char=>int
+chat=>long
+char=>doublec
+char=>float
+Расширение идёт за счёт 0 слева. Идёт гладко

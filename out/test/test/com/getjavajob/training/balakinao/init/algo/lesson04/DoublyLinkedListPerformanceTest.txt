@@ -1,0 +1,24 @@
+-------- LinkedList Addition 9000000 elements to the beginning --------
+LinkedList.add(index, element): 2084 ms
+-------- DoublyLinkedList Addition 9000000 elements to the beginning --------
+DoublyLinkedList.add(index, element): 1956 ms
+-------- LinkedList Addition 60000 elements to the middle --------
+LinkedList.add(ind,index, element): 2269 ms
+-------- DoublyLinkedList Addition 60000 elements to the middle --------
+DoublyLinkedList.add(index, element): 2067 ms
+-------- ArrayList Addition 13000000 elements to the end --------
+LinkedList.add(index, element): 2870 ms
+-------- DoublyLinkedList Addition 13000000 elements to the end --------
+DoublyLinkedList.add(index, element): 2739 ms
+-------- LinkedList Removing 37000000 elements in the beginning --------
+LinkedList.remove(int index): 2629 ms
+-------- DoublyLinkedList Removing 37000000 elements in the beginning --------
+DoublyLinkedList.remove(int index): 981 ms
+-------- LinkedList Removing 80000 elements in the middle --------
+LinkedList.remove(int index): 1829 ms
+-------- DoublyLinkedList Removing 80000 elements in the middle --------
+DoublyLinkedList.remove(int index): 2593 ms
+-------- LinkedList Removing 60000000 elements in the end --------
+LinkedList.remove(int index): 1054 ms
+-------- DoublyLinkedList Removing 60000000 elements in the end --------
+DoublyLinkedList.remove(int index): 1042 ms

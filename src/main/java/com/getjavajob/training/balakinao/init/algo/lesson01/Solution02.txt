@@ -1,0 +1,10 @@
+115
+
+to bin system (1 byte):
+0b0111 0011
+
+to bin system (2 byte):
+0b0000 0000 0111 0011
+
+to bin system (4 byte):
+0b0000 0000 0000 0000 0000 0000 0111 0011

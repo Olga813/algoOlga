@@ -1,0 +1,14 @@
+will next (in txt file) statements compile?
+1) byte b = 100 YES 
+
+2) byte b = 100L NO 
+Can be corrected:
+long b=100L 
+or byte b= (byte)100 L(Here the data will be lost, but we are omitted to go to this) 
+
+3) int i = 100L NO  
+Can be corrected:
+int i =100 
+or int i = (int)100L
+
+// This was based on a decision: byte =8 bit; long (L)=64 bit; int =32 bit
